@@ -1,2 +1,4 @@
 # School-Personal-HERC-Projects
-Robotics projects I did with arduino, raspberry pi, etc. 
+“These are personal learning experiments inspired by my contributions to UCM’s HERC team.”
+
+Disclaimer: “No team-owned or proprietary code is included.”
