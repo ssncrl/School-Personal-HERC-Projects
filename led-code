@@ -1,0 +1,19 @@
+const int switchPin = 2;  // Pin connected to the ball switch
+
+void setup() {
+  pinMode(switchPin, INPUT);       // Set switch pin as input
+  Serial.begin(9600);              // Start serial communication
+}
+
+void loop() {
+  int switchState = digitalRead(switchPin);  // Read the switch
+
+  if (switchState == HIGH) {
+    Serial.println("Circuit OPEN");
+  } else {
+    Serial.println("Circuit CLOSED");
+  }
+
+  delay(500);  // Wait for half a second to avoid spamming Serial Monitor
+}
+
